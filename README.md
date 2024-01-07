@@ -16,8 +16,6 @@ https://www.youtube.com/watch?v=BZMZ3351KDs&t=440s
 https://phazertech.com/tutorials/rocm.html
 
 
-OpenCL tutorial:
-https://www.youtube.com/watch?v=ROTE_yjRi9s&t=429s
 
 Introduction to GPU, CUDA and OpenCL
 https://www.youtube.com/watch?v=CdPd5TwM0mI
@@ -32,12 +30,6 @@ https://www.youtube.com/watch?v=fkpofukvGeg&t=281s
 What is High Performance Computing? Google Cloud Tech
 https://www.youtube.com/watch?v=nIBu1EFYmBU
 cloud.google.com/hpc
-
-Episode 1 - Introduction to OpenCL 
-Episode 2 - OpenCL Fundamentals
-https://cims.nyu.edu/~schlacht/OpenCLModel.pdf
-best opencl tutorial:
-https://www.nersc.gov/assets/pubs_presos/MattsonTutorialSC14.pdf
 
 AMD Accelerator Cloud
 allows to use AMD GPUs in the cloud
