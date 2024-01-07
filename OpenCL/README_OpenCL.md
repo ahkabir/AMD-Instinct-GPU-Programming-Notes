@@ -1,10 +1,10 @@
 # CUDA Installation:
-##papers:\
+##papers:
 (1) https://cims.nyu.edu/~schlacht/OpenCLModel.pdf\
 (2) In-depth tutorial (best):\
 https://www.nersc.gov/assets/pubs_presos/MattsonTutorialSC14.pdf\
 
-##videos:\
+##videos:
 (1) https://www.youtube.com/watch?v=ROTE_yjRi9s&t=429s\
 
 (2) Episode 1 - Introduction to OpenCL\
