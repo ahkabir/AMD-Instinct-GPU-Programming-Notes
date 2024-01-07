@@ -42,6 +42,7 @@ unavailable to other SIMD Processors.
 
 # CUDA terminologies related to programming
 | term | description |
+| --- | --- |
 | dimGrid | specifies the dimension of the code (in TBs). |
 | dimBlock | specifies the dimension of a block (in threads). |
 | blockIdx | Identifiers for TBs. |
