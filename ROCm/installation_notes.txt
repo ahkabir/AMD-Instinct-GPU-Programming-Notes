@@ -1,0 +1,17 @@
+supported OS-es:
+Ubuntu 22.04.03, kernel 6.2
+ROCm requires CPUs that support PCIe atomics. Any modern CPU supports that
+
+install via pacakge manager, because it will keep them updated.
+
+https://www.youtube.com/watch?v=BZMZ3351KDs&t=440s
+https://phazertech.com/tutorials/rocm.html
+
+
+
+
+Pain points:
+Issues with installation (package management based):
+(1) sudo apt install amdgpu-dkms
+E: Unable to locate amdgpu-dkms
+

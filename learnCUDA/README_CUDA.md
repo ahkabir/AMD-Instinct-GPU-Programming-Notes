@@ -10,50 +10,42 @@ I put the abbreviation within paranthesis after each official
 name. This is for the convenience of writing this README.
 
 ## Terminologies related to Program abstractions
-Grid (G):
+Grid (G):\
 A vectorizable loop, executed on the GPU, made up
 of one of more Thread Blocks
 
-Thread Block (TB):
+Thread Block (TB):\
 A vectorized loop executed on *a* multithreaded SIMD
 Processor, made up of one or more threads of SIMD
 instructions. They communicate with local memory.
 
-CUDA Thread (CT):
+CUDA Thread (CT):\
 Threads within a TB. A vertical cut of a thread of SIMD
 instructions corresponding to one element executed by
 one SIMD Lane.
 
-Warp:
+Warp:\
 A traditional thread, but it only contains SIMD instructions
 that are executed on a multithreaded SIMD Processor.
 
 ## Terminologies related to Memory hardware
-Global Memory:
+Global Memory:\
 DRAM memory accessible by all multithreaded SIMD Processors in
 a GPU. This is also known as GPU memory.
 
-Local Memory:
+Local Memory:\
 Portion of DRAM memory private to each SIMD Lane
 
-Shared Memory:
+Shared Memory:\
 Fast local SRAM for one multithreaded SIMD Processor,
 unavailable to other SIMD Processors.
 
 # CUDA terminologies related to programming
-dimGrid
-specifies the dimension of the code (in TBs).
-
-dimBlock
-specifies the dimension of a block (in threads).
-
-blockIdx
-Identifiers for TBs.
-
-threadIdx
-Identifier for each thread in a TB.
-
-blockDim
-The number of threads per block.
+| term | description |
+| dimGrid | specifies the dimension of the code (in TBs). |
+| dimBlock | specifies the dimension of a block (in threads). |
+| blockIdx | Identifiers for TBs. |
+| threadIdx | Identifier for each thread in a TB. |
+| blockDim | The number of threads per block. |
 
 
