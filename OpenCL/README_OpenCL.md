@@ -1,4 +1,4 @@
-# CUDA Installation:
+# Ramping up on OpenCL:
 ## papers:
 (1) [`Quick overview`](https://cims.nyu.edu/~schlacht/OpenCLModel.pdf)\
 (2) [`Best in-depth tutorialb`](https://www.nersc.gov/assets/pubs_presos/MattsonTutorialSC14.pdf)\
