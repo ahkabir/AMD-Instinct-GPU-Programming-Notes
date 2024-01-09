@@ -1,12 +1,38 @@
-template <typename T>
-__global__ void
-vector_square(T *C_d, const T *A_d, size_t N)
-{
-    size_t offset = (blockIdx.x * blockDim.x + threadIdx.x);
-    size_t stride = blockDim.x * gridDim.x;
+#include "hip/hip_runtime.h"
 
-    for (size_t i=offset; i<N; i+=stride) {
-        C_d[i] = A_d[i] * A_d[i];
+__global
+void myKernel(int N, double *d_a)
+{
+    int i = threadIdx.x + blockIdx.x*blockDim.x;
+    if (i < N)
+    {
+        d_a[i] *= 2.0;
     }
 }
 
+int main()
+{
+    int N = 1000;
+    size_t Nbytes = N * sizeof(double);
+    double *h_a = (double *) malloc(Nbytes);
+    double *d_a = NULL;
+    HIP_CHECK(hipMalloc(&d_a, Nbytes));
+    
+    HIP_CHECK(hipMemCpy(d_a, h_a, Nbytes, hipMemcpyHostToDevice));
+    
+    hipLaunchKernelGGL(myKernel,
+            dim3((N + 256 - 1) / 256, 1, 1),
+            dim3(256, 1, 1),
+            0,
+            0,
+            N,
+            d_a
+            );
+
+    HIP_CHECK(hipGetLastError());
+
+    HIP_CHECK(hipMemCpy(h_a, d_a, Nbytes, hipMemcpyDeviceToHost));
+
+    free(h_a);
+    HIP_CHECK(hipFree(d_a));
+}
