@@ -49,4 +49,18 @@ unavailable to other SIMD Processors.
 | threadIdx | Identifier for each thread in a TB. |
 | blockDim | The number of threads per block. |
 
+# CUDA APIs
+https://docs.nvidia.com/cuda/cuda-runtime-api/index.html
+
+# CUDA C++ programming GUIDE
+https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html
+
+# CUDA tutorial
+https://cuda-tutorial.readthedocs.io/en/latest/
+
+# An Even Easier Introduction to CUDA
+https://developer.nvidia.com/blog/even-easier-introduction-cuda/
+
+
+
 
