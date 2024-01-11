@@ -1,5 +1,5 @@
 # AMD-Instinct-GPU-Programming-Notes
-[This SITE is under construction]
+[`This SITE is under construction`]\
 Major use cases where AMD Instinct GPU is considered are AI/ML
 compute and HPC compute. Getting up to speed with AMD Instict GPU
 could be quite challenging to the uninitiated without who don't
