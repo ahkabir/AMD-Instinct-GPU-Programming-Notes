@@ -2,7 +2,7 @@
 -climate segmentation\
 -cosmology parameter prediction\
 -quantum molecular modeling\
--protien structure prediction\
+-protien structure prediction
 
 
 # References
@@ -16,7 +16,7 @@
 (7) [`GCP What is High Performance Computing (HPC)`](https://www.youtube.com/watch?v=nIBu1EFYmBU)\
 (8)[`GCP HPC best practices (very good article)`](https://www.youtube.com/watch?v=grIyHmF4I_Y)\
 (9) [`GPC Cloud HPC Toolkit tutorial: Simple cluster`](https://www.youtube.com/watch?v=acRzY4mnkAc)\
-(10) [`Partly listen to this video by a Professor`](https://www.youtube.com/watch?v=PRzylCuU55Y)\
+(10) [`Partly listen to this video by a Professor`](https://www.youtube.com/watch?v=PRzylCuU55Y)
 
 
 
