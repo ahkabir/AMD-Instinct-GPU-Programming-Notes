@@ -1,9 +1,11 @@
 # CUDA Installation:
-Ubuntu 22.04, kernel 6.2.0-26, gcc 11.4.0, glibc 2.35
-x86_64 gcc 6.x-12.2, Clang 7.x-16.0
-C++20 is supported for: x86_64: gcc >= 10.x, clang >= 11.x
+Ubuntu 22.04, kernel 6.2.0-26, gcc 11.4.0, glibc 2.35 \
+x86_64 gcc 6.x-12.2, Clang 7.x-16.0 \
+C++20 is supported for: x86_64: gcc >= 10.x, clang >= 11.x\
 
-CUDA installation methods: (1) distro specific or (2) distro independent runfile packages
+CUDA installation methods:\
+(1) distro specific or\
+(2) distro independent runfile packages\
 
 # Official CUDA/NVIDIA GPU term
 I put the abbreviation within paranthesis after each official
@@ -62,7 +64,7 @@ https://cuda-tutorial.readthedocs.io/en/latest/
 https://developer.nvidia.com/blog/even-easier-introduction-cuda/
 
 # CUDA, OpenCL and GPU
-Introduction to GPU, CUDA and OpenCL
+Introduction to GPU, CUDA and OpenCL\
 https://www.youtube.com/watch?v=CdPd5TwM0mI
 
 

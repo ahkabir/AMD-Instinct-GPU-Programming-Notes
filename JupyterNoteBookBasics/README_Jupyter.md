@@ -21,7 +21,9 @@ $ pip3 install --upgrade pip
 
 Now install the virtualenv:
 
+```
 pip3 install --user --upgrade virtualenv
+```
 
 For this tutorial project, let's say we create the project
 under a directory called myfirstjupyternb:

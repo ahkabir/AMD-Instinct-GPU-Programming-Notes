@@ -1,11 +1,12 @@
 # AMD-Instinct-GPU-Programming-Notes
+[This SITE is under construction]
 Major use cases where AMD Instinct GPU is considered are AI/ML
-compute and HPC compute. For a beginner like me who has knowledge
-of SIMD engines and fair idea of GPU architecture, getting up to
-speed with AMD Instict GPU is not that easy.
+compute and HPC compute. Getting up to speed with AMD Instict GPU
+could be quite challenging to the uninitiated without who don't
+have backgrounds on GPU compute, AI and HPC use cases.
 
-In order to ramp up on it quickly, I have explored various topics
-so that programming AMD Instict GPU becomes easier and I understand
+In order to ramp up AMD Instict GPU quickly, I have explored various
+topics so that programming AMD Instict GPU becomes easier and I understand
 the bigger picture, as to why to use the Instict GPU, how it can
 help a certain use case and so on.
 
