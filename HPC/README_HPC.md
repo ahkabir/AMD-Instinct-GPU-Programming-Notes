@@ -1,38 +1,28 @@
-Azure:
-https://learn.microsoft.com/en-us/azure/architecture/topics/high-performance-computing#introduction-to-hpc
-Azure HPC solution ideas:
-https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/azure-batch-rendering
-
-https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/big-compute-with-azure-batch
-
-Partly listen to this video by a Professor:
-https://www.youtube.com/watch?v=PRzylCuU55Y
+# HPC usecases
+-climate segmentation
+-cosmology parameter prediction
+-quantum molecular modeling
+-protien structure prediction
 
 
-Introduction to Google Cloud:
-https://www.youtube.com/watch?v=IeMYQ-qJeK4&list=PLIivdWyY5sqLuHY9Lw3DSJbY9Y-eIGMKf
+# References
 
-GCP HPC best practices (very good article):
-https://www.youtube.com/watch?v=grIyHmF4I_Y
-
-GCP What is High Performance Computing (HPC):
-https://www.youtube.com/watch?v=nIBu1EFYmBU
-
-GCP What is Google Kubernetes:
-https://www.youtube.com/watch?v=Rl5M1CzgEH4
-
-GPC Cloud HPC Toolkit tutorial: Simple cluster:
-https://www.youtube.com/watch?v=acRzY4mnkAc
-
-Introduction to large language models:
-https://www.youtube.com/watch?v=zizonToFXDs
-
-What is Vertex AI?
-https://www.youtube.com/watch?v=gT4qqHMiEpA&list=RDCMUCJS9pqu9BzkAMNTmzNMNhvg&index=3
+(1) [`Azure: Introduction to HPC`](https://learn.microsoft.com/en-us/azure/architecture/topics/high-performance-computing#introduction-to-hpc)
+(2) [`Azure HPC batch rendering`](https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/azure-batch-rendering)
+(3) [`Azure Big Compute`](https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/big-compute-with-azure-batch)
+(4) [`Introduction to HPC Computing A Practical Tutorial, Marco Verdicchio`](https://www.youtube.com/watch?v=fkpofukvGeg&t=281s)
+(5) [`What is High Performance Computing? Google Cloud Tech`](https://www.youtube.com/watch?v=nIBu1EFYmBU)
+(6) [`Google Cloud's HPC`](cloud.google.com/hpc)
+(7) [`GCP What is High Performance Computing (HPC)`](https://www.youtube.com/watch?v=nIBu1EFYmBU)
+(8)[`GCP HPC best practices (very good article)`](https://www.youtube.com/watch?v=grIyHmF4I_Y)
+(9) [`GPC Cloud HPC Toolkit tutorial: Simple cluster`](https://www.youtube.com/watch?v=acRzY4mnkAc)
+(10) [`Partly listen to this video by a Professor`](https://www.youtube.com/watch?v=PRzylCuU55Y)
 
 
 
 
-DATACENTER:
-https://mvdirona.com/jrh/TalksAndPapers/JamesHamilton_POA20101026_External.pdf
+
+
+
+
 

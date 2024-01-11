@@ -61,6 +61,8 @@ https://cuda-tutorial.readthedocs.io/en/latest/
 # An Even Easier Introduction to CUDA
 https://developer.nvidia.com/blog/even-easier-introduction-cuda/
 
-
+# CUDA, OpenCL and GPU
+Introduction to GPU, CUDA and OpenCL
+https://www.youtube.com/watch?v=CdPd5TwM0mI
 
 
