@@ -15,8 +15,8 @@ First we will make sure that we have the latest system wide
 pip package:
 
 ```
-$ pip3 --version
-$ pip3 install --upgrade pip
+pip3 --version
+pip3 install --upgrade pip
 ```
 
 Now install the virtualenv:
@@ -29,10 +29,10 @@ For this tutorial project, let's say we create the project
 under a directory called myfirstjupyternb:
 
 ```
-$ mkdir -p ${HOME}/myfirstjupyternb
-$ export NOTEBOOK=${HOME}/myfirstjupyternb
-$ cd ${NOTEBOOK}
-$ virtualenv env
+mkdir -p ${HOME}/myfirstjupyternb
+export NOTEBOOK=${HOME}/myfirstjupyternb
+cd ${NOTEBOOK}
+virtualenv env
 ```
 
 Once the environment is created, subsequently, whenever you want
@@ -40,20 +40,20 @@ to work on this project you would enter that directory and
 activate the virtualenv:
 
 ```
-$ cd ${NOTEBOOK}
-$ source env/bin/activate
+cd ${NOTEBOOK}
+source env/bin/activate
 ```
 Now that we are inside the virtualenv, install all the packages
 we need, including jupyter, for our jupyter notebook project.
 
 ```
-$ pip3 install --upgrade jupyter matplotlib numpy pandas scipy scikit-learn
+pip3 install --upgrade jupyter matplotlib numpy pandas scipy scikit-learn
 ```
 
 ## Check your installation
 
 ```
-$ python3 -c "import jupyter, matplotlib, numpy, pandas, scipy, sklearn"
+python3 -c "import jupyter, matplotlib, numpy, pandas, scipy, sklearn"
 ```
 
 Once you run the above command there should not be any ouput or any error.
@@ -61,7 +61,7 @@ Once you run the above command there should not be any ouput or any error.
 ## Launch Jupyter
 
 ```
-$ jupyter notebook
+jupyter notebook
 ```
 
 ## Create cells
